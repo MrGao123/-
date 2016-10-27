@@ -13,8 +13,10 @@
     //1.1 利用覆盖原型对象
     Person.prototype = o;
     Person.prototype.constructor = Person;
-    //1.2 利用对象的动态性给
-    var p = new Person();
+    var p = new Person();    
+    //1.2 利用对象的动态特性
+    p.name = "lisi";
+    //这一句是给p对象自身添加了一个name属性，不会修改原型中的name属性
     console.log(p);
 ```
 
