@@ -17,8 +17,8 @@
             console.log('hello world')
         }
     }
-    function extend(o3) {
-
+    function extend(obj) {
+        
     }
 ```
 
