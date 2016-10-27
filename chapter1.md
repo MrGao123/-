@@ -80,7 +80,7 @@
     }
 
     function Stu(){
-        Per.call(Stu);
+        Per.call(this);
     }
     var stu = new Stu();
     console.log(stu);
