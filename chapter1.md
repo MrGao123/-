@@ -10,8 +10,10 @@
         }
     }
     function Person() {}
-    //1.1 直接改变原型对象的指向
+    //1.1 利用覆盖原型对象
     Person.prototype = o;
+    Person.prototype.constructor = Person;
+    //1.2 利用对象的动态性给
     var p = new Person();
     console.log(p);
 ```
