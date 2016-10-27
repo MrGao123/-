@@ -66,5 +66,8 @@
         F.prototype = {};
         return new F();
     }    
+    var o = {name:'zs',age:20};
+    var o2 = create(o);
+    console.log(o2);
 ```
 
