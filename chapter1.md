@@ -54,9 +54,15 @@
     o3.extend(o2);
     console.log(o3);
 ```
-* 3. 经典继承
+* 3. 经典继承:Object.create
 
 ```js
+    //经典继承的兼容实现
+    function create(obj) {
+        if (Object.create) {
+            return Object.create(obj);
+        }
+    }
     
 ```
 
