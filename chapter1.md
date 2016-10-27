@@ -2,7 +2,13 @@
 * 1. 原型式链继承
 
 ```js
-    aaaa
+    var o = {
+        name: 'zs',
+        age: 10,
+        sayHi: function(){
+              console.log(this.name+"----"+this.age)
+        }
+    }
 ```
 
 * 2.混入式继承
