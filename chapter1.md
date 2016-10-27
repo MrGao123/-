@@ -62,6 +62,9 @@
         if (Object.create) {
             return Object.create(obj);
         }
+        var F = function(){};
+        F.prototype = {};
+        return new F();
     }
     
 ```
