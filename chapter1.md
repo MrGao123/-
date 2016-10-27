@@ -65,7 +65,6 @@
         var F = function(){};
         F.prototype = {};
         return new F();
-    }
-    
+    }    
 ```
 
