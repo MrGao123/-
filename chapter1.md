@@ -10,6 +10,7 @@
         }
     }
     function Person() {}
+    //1.1 直接改变原型对象的指向
     Person.prototype = o;
     var p = new Person();
 ```
