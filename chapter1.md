@@ -17,7 +17,7 @@
     function Person() {}
     //1.1 利用覆盖原型对象
     //1.1.1直接将原型对象指向一个对象
-    Person.prototype = o;
+    //Person.prototype = o;
     Person.prototype.constructor = Person;
     //1.1.2将原型对象指向一个实例对象
     Person.prototype = new AAA();
