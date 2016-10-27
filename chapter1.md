@@ -25,7 +25,10 @@
             this[key] = obj[key]; 
         }
     }
-    console.log(p);
+    var o1 = {name:'zs',age:10};
+    Stu.prototype.extend(o1);
+    
+    
 ```
 
 * 2.混入式继承（给**对象自身**添加属性的混入式继承方法）
