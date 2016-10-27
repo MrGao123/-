@@ -54,4 +54,9 @@
     o3.extend(o2);
     console.log(o3);
 ```
+* 3. 经典继承
+
+```js
+    
+```
 
