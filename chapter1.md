@@ -71,6 +71,19 @@
     var o2 = create(o);
     console.log(o2);
 ```
-* 4.
+* 4.借用构造函数
+
+```js
+    function Per(){
+        this.name = "zhangsan";
+        this.age = 10;
+    }
+
+    function Stu(){
+        Per.call(Stu);
+    }
+    var stu = new Stu();
+    console.log(stu);
+```
 
 
