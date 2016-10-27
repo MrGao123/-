@@ -9,6 +9,11 @@
               console.log(this.name+"----"+this.age)
         }
     }
+    function AAA(){}
+    AAA.prototype = {
+        color: 'red',
+        leg: 4
+    }
     function Person() {}
     //1.1 利用覆盖原型对象
     Person.prototype = o;
