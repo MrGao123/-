@@ -24,6 +24,7 @@
 
     //1.1.2将原型对象指向一个实例对象
     Person.prototype = new AAA();
+    Person.prototype.constructor = Person;
     
     var p = new Person();    
 
