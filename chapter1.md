@@ -9,6 +9,9 @@
               console.log(this.name+"----"+this.age)
         }
     }
+    function Person() {}
+    Person.prototype = o;
+    var p = new Person();
 ```
 
 * 2.混入式继承
