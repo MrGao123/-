@@ -19,6 +19,12 @@
     //这一句是给p对象自身添加了一个name属性，不会修改原型中的name属性
     
     //1.3 利用混入式继承给**原型对象**添加属性和方法
+    function Stu(){}
+    Stu.prototype.extend = function (obj) {
+        for ( var key in obj ) {
+            this[key] = obj[key]; 
+        }
+    }
     console.log(p);
 ```
 
