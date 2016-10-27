@@ -13,6 +13,7 @@
     //1.1 直接改变原型对象的指向
     Person.prototype = o;
     var p = new Person();
+    console.log(p);
 ```
 
 * 2.混入式继承
