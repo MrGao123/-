@@ -8,7 +8,7 @@
 * 2.混入式继承
 
 ```js
-     var o1 = {
+    var o1 = {
         name: 'zs',
         age: 10
     }   
