@@ -22,5 +22,10 @@
             this[key] = obj[key];
         }
     }
+    var o3 = {};
+    o3.extend = extend;
+    o3.extend(o1);
+    o3.extend(o2);
+    console.log(o3);
 ```
 
